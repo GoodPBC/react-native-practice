@@ -91,3 +91,53 @@ Okay thats enough complexity for now. all of this stuff is happening under the h
 6. When your app has finished building press i or a in your terminal and you should see the following:
 
    ![alt text](assets/expoStart.png "Fresh iOS Expo Build")
+
+   ***
+
+Lets open up an IDE. We recommend using VSCode. it is, in our opinion the best modern editor and it has tons of tools for developing javascript and React/RN.
+
+Open the the `App.js` file and you will notice that there is `<View>` element encapsulating 3 `<Text>` elements.
+
+By playing with the text and the text tags and then saving your changes you will see the differences in you app upon saving. One of the cool features about RN is the Hot Reloading that we get out of the box with expo. By hot reloading we mean the ability to make changes, save your files, and have those changes refresh instantly.
+
+#### React Native and its Limitations.
+
+React Native is awesome because we allows to create Native Apps in one code base. However, this presents challenges. Not everything can be reconciled across both iOS and Android. Truth is, both platforms have unique differences that cant be transferred to the other. This happens a lot in when it comes to style and creating responsiveness across different devices and screen sizes.
+
+There is also the need to create a lot of custom components because we are not given all the things we are given in a web UI library that is running on the same backbone everywhere.
+
+Essentially, we are given the neccessary components to do the job, but we have to get creative.
+
+Another thing worth mentioning and definitely to be taken into consideration when deciding whether or not to use it in a project is the fact that there a lot of moving parts. Firstly, React is rapidly iterating. That coupled with the fact that so are Android and Apple, means that a lot of things can break and change over time.
+
+**Thats why we are here anyway right?**
+
+---
+
+## React Native Basics
+
+## React Native & Redux
+
+## Debugging
+
+## Styling
+
+## Animation
+
+## Navigation
+
+## Extensions and Third Party Integrations
+
+## Forms
+
+## Accessing Device Camera
+
+## GPS & Maps
+
+## HTTP Requests
+
+## Authentication
+
+## Release Prep
+
+## Publishing
