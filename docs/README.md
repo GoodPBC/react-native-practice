@@ -116,15 +116,16 @@ Another thing worth mentioning and definitely to be taken into consideration whe
 
 ## React Native Basics
 
-<<<<<<< HEAD
-### Creating a New React Project
+### Creating a New React Project with Expo
 
 To begin, we are going to build using the **Expo** Tool. IT lets us get an application up and running quickly without having to do any crazy configs, or worrying about extensive tooling like XCode or Android Studio.
 
 1. **Make sure you have an LTS Version of Node Installed.**
 
 2. **In your terminal, type the following command.**
+
    - `yarn global add expo-cli`
+
 3. **Next we are going to init a new expo project by typing the following command in the terminal.**
 
    - `expo init YourProjectName`
@@ -135,10 +136,32 @@ To begin, we are going to build using the **Expo** Tool. IT lets us get an appli
 
    **This will start your dev server and your application is ready to run. At this piont you can install the Expo app on your phone or open your app in an emululator on your computer**
 
+### Creating a New React Project with Expo
+
+In order to create a stand alone React Native project you must do take many extra steps. Do so with caution. you would do well to remember that RN is under active development and XCode, iOS, Android and Android Studio are on the move as well. There is a good likelihood that you will wind up having to do some serious debugging. In order to begin this process, in the terminal, do the following:
+
+#### ON MacOS
+
+1. **brew install node**
+2. **brew install watchman**
+3. **sudo npm install -g react-native-cli**
+4. **Install XCode**
+   - Follow the React Native specfic instructions [here](https://facebook.github.io/react-native/docs/getting-started.html#xcode)
+   - [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+5. **react-native init yourproject**
+6. **`cd YourProjectName`**
+7. **`react-native run-ios`**
+
+If the `react-native run-ios` command fails this is where you begin debugging.
+
+The best things you can do are:
+
+- pay attention to your error messages,
+- copy and paste them into the browser to check for solutions
+- visit the [known issues on the RN Repo on Github](https://github.com/facebook/react-native/issues)
+
 ### Understanding JSX
 
-=======
->>>>>>> add28ad41e3f94524d4b6d6a14d2413a59e7605c
 ---
 
 ## React Native & Redux
