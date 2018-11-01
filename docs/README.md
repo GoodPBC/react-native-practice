@@ -116,28 +116,54 @@ Another thing worth mentioning and definitely to be taken into consideration whe
 
 ## React Native Basics
 
+---
+
 ## React Native & Redux
+
+---
 
 ## Debugging
 
+---
+
 ## Styling
+
+---
 
 ## Animation
 
+---
+
 ## Navigation
+
+---
 
 ## Extensions and Third Party Integrations
 
+---
+
 ## Forms
+
+---
 
 ## Accessing Device Camera
 
+---
+
 ## GPS & Maps
+
+---
 
 ## HTTP Requests
 
+---
+
 ## Authentication
 
+---
+
 ## Release Prep
+
+---
 
 ## Publishing
