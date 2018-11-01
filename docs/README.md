@@ -116,6 +116,7 @@ Another thing worth mentioning and definitely to be taken into consideration whe
 
 ## React Native Basics
 
+<<<<<<< HEAD
 ### Creating a New React Project
 
 To begin, we are going to build using the **Expo** Tool. IT lets us get an application up and running quickly without having to do any crazy configs, or worrying about extensive tooling like XCode or Android Studio.
@@ -136,6 +137,8 @@ To begin, we are going to build using the **Expo** Tool. IT lets us get an appli
 
 ### Understanding JSX
 
+=======
+>>>>>>> add28ad41e3f94524d4b6d6a14d2413a59e7605c
 ---
 
 ## React Native & Redux
