@@ -116,28 +116,74 @@ Another thing worth mentioning and definitely to be taken into consideration whe
 
 ## React Native Basics
 
+### Creating a New React Project
+
+To begin, we are going to build using the **Expo** Tool. IT lets us get an application up and running quickly without having to do any crazy configs, or worrying about extensive tooling like XCode or Android Studio.
+
+1. **Make sure you have an LTS Version of Node Installed.**
+
+2. **In your terminal, type the following command.**
+   - `yarn global add expo-cli`
+3. **Next we are going to init a new expo project by typing the following command in the terminal.**
+
+   - `expo init YourProjectName`
+
+4. **Navigate into your project directory and type:**
+
+   - `npm start` or `yarn start`
+
+   **This will start your dev server and your application is ready to run. At this piont you can install the Expo app on your phone or open your app in an emululator on your computer**
+
+### Understanding JSX
+
+---
+
 ## React Native & Redux
+
+---
 
 ## Debugging
 
+---
+
 ## Styling
+
+---
 
 ## Animation
 
+---
+
 ## Navigation
+
+---
 
 ## Extensions and Third Party Integrations
 
+---
+
 ## Forms
+
+---
 
 ## Accessing Device Camera
 
+---
+
 ## GPS & Maps
+
+---
 
 ## HTTP Requests
 
+---
+
 ## Authentication
 
+---
+
 ## Release Prep
+
+---
 
 ## Publishing
