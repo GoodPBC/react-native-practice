@@ -160,7 +160,25 @@ The best things you can do are:
 - copy and paste them into the browser to check for solutions
 - visit the [known issues on the RN Repo on Github](https://github.com/facebook/react-native/issues)
 
-### Understanding JSX
+### Ejecting Expo
+To start with we are going to identify what environment we are working in. 
+Make sure you are in your project directory
+
+Type the **`react-native info`** command into the terminal and you will get the following output. 
+```
+  Environment:
+    OS: macOS High Sierra 10.13.6
+    Node: 8.12.0
+    Yarn: 1.10.1
+    npm: 6.4.1
+    Watchman: 4.9.0
+    Xcode: Xcode 9.4.1 Build version 9F2000
+    Android Studio: 3.2 AI-181.5540.7.32.5056338
+
+  Packages: (wanted => installed)
+    react: 16.3.1 => 16.3.1
+    react-native: https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz => 0.55.4
+```
 
 ---
 
