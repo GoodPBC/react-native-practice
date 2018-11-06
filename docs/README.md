@@ -66,6 +66,21 @@ React Native creates us our own JS thread that is hosted within the application 
 
 Okay thats enough complexity for now. all of this stuff is happening under the hood and you will likely not have to interface with it for awhile.
 
+---
+
+### Useful Resources and links
+
+- [React Native Offical Documentation](https://facebook.github.io/react-native/docs/getting-started.html)
+- [React Native Official Tutorial](https://facebook.github.io/react-native/docs/tutorial.html)
+
+- Make sure that you write your own code as you go along with this curriculum. The best way to learn is through repetition. Build that muscle memory by writing your own code and comparing it with the code in this repo.
+
+If you have any questions or beleive there to be any bugs, we ask that you use the issues feature on the [github repo](https://github.com/GoodPBC/react-native-practice/issues).
+
+At certain points in this course we may or may not create seperate branches of the repository to seperate distinctly different advances in our code base. We will always make you aware of the branch and tell you how to switch to it.
+
+---
+
 ### Creating your first React app
 
 #### Project setup
@@ -81,6 +96,7 @@ Okay thats enough complexity for now. all of this stuff is happening under the h
 5. Navigate into the directory of your new application are start it up with `yarn start` or `npm start`.
 
    - If you see any Errors, please create an issue in the repo and one of our community members will reach out to you to help you with a solve.
+
    - **After your application starts successfully** you will see a QR code in your terminal, if you scan it with your camera app it will prompt you to instal the expo mobile application. This is a great tool for viewing your dev application on your mobile device. We will be using it.
 
    **NOTE**
@@ -91,8 +107,6 @@ Okay thats enough complexity for now. all of this stuff is happening under the h
 6. When your app has finished building press i or a in your terminal and you should see the following:
 
    ![alt text](assets/expoStart.png "Fresh iOS Expo Build")
-
-   ***
 
 Lets open up an IDE. We recommend using VSCode. it is, in our opinion the best modern editor and it has tons of tools for developing javascript and React/RN.
 
@@ -136,7 +150,7 @@ To begin, we are going to build using the **Expo** Tool. IT lets us get an appli
 
    **This will start your dev server and your application is ready to run. At this piont you can install the Expo app on your phone or open your app in an emululator on your computer**
 
-### Creating a New React Project with Expo
+### Creating a New React Project with React Native
 
 In order to create a stand alone React Native project you must do take many extra steps. Do so with caution. you would do well to remember that RN is under active development and XCode, iOS, Android and Android Studio are on the move as well. There is a good likelihood that you will wind up having to do some serious debugging. In order to begin this process, in the terminal, do the following:
 
@@ -161,10 +175,12 @@ The best things you can do are:
 - visit the [known issues on the RN Repo on Github](https://github.com/facebook/react-native/issues)
 
 ### Ejecting Expo
-To start with we are going to identify what environment we are working in. 
+
+To start with we are going to identify what environment we are working in.
 Make sure you are in your project directory
 
-Type the **`react-native info`** command into the terminal and you will get the following output. 
+Type the **`react-native info`** command into the terminal and you will get the following output.
+
 ```
   Environment:
     OS: macOS High Sierra 10.13.6
@@ -180,7 +196,7 @@ Type the **`react-native info`** command into the terminal and you will get the 
     react-native: https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz => 0.55.4
 ```
 
----
+## In the root directory of our project we are going to run the **`npm run eject`** which is a command given to us by our expo setup.
 
 ## React Native & Redux
 
