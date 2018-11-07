@@ -196,6 +196,8 @@ Type the **`react-native info`** command into the terminal and you will get the 
     react-native: https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz => 0.55.4
 ```
 
+test
+
 ## In the root directory of our project we are going to run the **`npm run eject`** which is a command given to us by our expo setup.
 
 ## React Native & Redux
