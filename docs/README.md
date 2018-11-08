@@ -195,9 +195,52 @@ Type the **`react-native info`** command into the terminal and you will get the 
     react: 16.3.1 => 16.3.1
     react-native: https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz => 0.55.4
 ```
+In the root directory of our project we are going to run the **`expo eject`** which is a command given to us by our expo setup.
 
-## In the root directory of our project we are going to run the **`npm run eject`** which is a command given to us by our expo setup.
+This command helps us create and build two native projects each with their required dependencies. 
 
+Doing this allows us to build more complex applications with a greater level of access to native modules on both Android and iOS.
+
+## Running apps applications on an Android Studio Emulator
+
+To set up Android studio on in our environment we need to:
+
+1. [download Android Studio](https://developer.android.com/studio/). It is a rather large program so it may take a bit to download.
+
+2. Follow the setup wizard in the installer. When you get the point where it asks to import settings, it is okay to say no.
+
+3. Choose custom install, pick your theme and press next. Then check the box that says "Android Virtual Device". Click next and then finish and lets install the program.
+
+When the progrma is finsihed installing, it will give you the option to open an existing Android studio project. pick this option and navigate to the android folder in the ejected project that we are working on. 
+
+The project will process and open in Android studio. when the project opens you will likely see some errors in the console regrading you needing additional SDK versions to run your application. Install them.
+
+4. If you do not already have the Java JDK installed in your machine. go [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the 8u192 Kit. Make sure you accept the license.
+
+5 Finally run the `react-native run-android` comamnd in your terminal and the you will see the build take place. 
+
+it is possible that you may wind up with an `**/bin/sh: adb: command not found*` error. 
+
+If this happens you will need to add the adb from the Android SDK to your global path. [here]( https://stackoverflow.com/questions/10303639/adb-command-not-found) is the fix.
+
+## Running apps on an Android Device
+
+In order to run the app on an android phone, you need to shut down any emulators running from Android and plug in a device to your computer. 
+
+You will need to turn on the developer mode on the device you are looking to use.
+
+on the phone you will go to **Systems `>` About Phone `>` Build Number** and you will tap it several times until you get a message confirming that developer mode is active. 
+
+This gives you a new **Developer** menu on your phone in **"System Settings"**. 
+
+Turn on USB Debugging and give your computer access to the phone. you should be good to go. Once you run the `**react-native run-android**` command, the app should side load into your phone.
+
+## Running apps on iOS
+
+If you have not already, 
+
+1. create an Apple ID [here](https://appleid.apple.com/account#!&page=create)
+2. signup for a [free developer](https://idmsa.apple.com/IDMSWebAuth/login?) account with the Apple Developer program.
 ## React Native & Redux
 
 ---
